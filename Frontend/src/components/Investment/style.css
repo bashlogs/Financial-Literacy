@@ -1,0 +1,92 @@
+/* style.css */
+
+
+.homepage-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  height: 600px; /* Set the height as per your requirement */
+  overflow: auto; /* Add scrolling */
+  scrollbar-width: none;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+.content-container {
+  flex: 1;
+}
+
+.search-bar {
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.lessons-list {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.lesson {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.lesson h2 {
+  margin-bottom: 10px;
+}
+
+
+
+.toggle-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f0f0f0; Light background */
+  padding: 10px; /* Adjust padding as needed */
+  /* margin-left: 50%; */
+}
+
+.toggle-item {
+  cursor: pointer;
+  padding: 10px 16px; /* Adjust padding as needed */
+  border-radius: 20px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+  color: #555; /* Text color */
+  font-size: 20px; /* Font size */
+  margin: 10px;
+}
+
+.toggle-item.active {
+  background-color: #4CAF50; /* Green background for active item */
+  color: #fff; /* White text color for active item */
+}
